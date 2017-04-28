@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title='chtr'
+        link(rel='stylesheet', type='text/css', href='/style.css')
+        script(src="/socket.io/socket.io.js")
+        script(src="https://code.jquery.com/jquery-1.11.1.js")
+        script(src='/client.js')
+    body
+        ul(id='messages')
+        form(action='')
+          input(type='text' id='nick')
+          input(id='m', autocomplete='off')
+          button Send
+          

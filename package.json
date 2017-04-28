@@ -1,0 +1,17 @@
+{
+  "name": "testiapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26",
+    "pug": "^2.0.0-beta.12",
+    "socket.io": "^1.7.3"
+  }
+}
